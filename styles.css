@@ -414,6 +414,11 @@ body {
         top: 65%; /* sube un poco para que encaje mejor */
         background-size: clamp(320px, 87vw, 320px) clamp(130px, 13vh, 130px);
     }
+    .sello-btn {
+    top: 72%;
+    width: clamp(50px, 15vw, 50px);
+    height: clamp(50px, 15vw, 50px);
+    }
 }
 @media (min-width: 768px) {
     .imagentop {
@@ -421,6 +426,7 @@ body {
         background-size: clamp(520px, 60vw, 520px) clamp(200px, 25vh, 200px);
     }
 }
+
 
 
 
