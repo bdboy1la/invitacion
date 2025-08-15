@@ -416,8 +416,8 @@ body {
     }
     .sello-btn {
     top: 72%;
-    width: clamp(35px, 15vw, 35px);
-    height: clamp(33px, 15vw, 35px);
+    width: clamp(50px, 15vw, 50px);
+    height: clamp(50px, 15vw, 50px);
     }
 }
 @media (min-width: 768px) {
@@ -426,6 +426,7 @@ body {
         background-size: clamp(520px, 60vw, 520px) clamp(200px, 25vh, 200px);
     }
 }
+
 
 
 
