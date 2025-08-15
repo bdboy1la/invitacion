@@ -407,7 +407,7 @@ body {
     }
     .flip-card {
         height: 38vh;
-        max-width: 450px;
+        max-width: 455px;
         max-height: 285px;
     }
     .imagentop {
@@ -426,6 +426,7 @@ body {
         background-size: clamp(520px, 60vw, 520px) clamp(200px, 25vh, 200px);
     }
 }
+
 
 
 
