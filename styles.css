@@ -403,7 +403,7 @@ body {
         background-size: clamp(320px, 87vw, 320px) clamp(130px, 13vh, 130px);
     }
     .sello-btn {
-        top: 70%;
+        top: 73%;
         width: 50px;
         height: 50px;
     }
@@ -414,6 +414,7 @@ body {
         background-size: clamp(520px, 60vw, 520px) clamp(200px, 25vh, 200px);
     }
 }
+
 
 
 
