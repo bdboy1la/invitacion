@@ -64,12 +64,14 @@ body {
 /* Flip Card */
 .flip-card {
     width: clamp(280px, 90vw, 600px);
-    height: clamp(180px, 38vh, 400px);
+    /* Eliminar la propiedad height: height: clamp(180px, 38vh, 400px); */
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.6s;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
+    /* Agregar aspect-ratio para mantener la proporción de la tarjeta */
+    aspect-ratio: 1.5 / 1;
 }
 
 .flip-card-inner {
@@ -388,20 +390,18 @@ body {
 }
 
 /* Ajustes móviles */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .container {
         margin-top: 15%;
     }
     .flip-card {
         width: 100%;
-        height: auto;
         width: clamp(280px, 90vw, 390px);
-        height: clamp(180px, 38vh, 290px);
         aspect-ratio: 3 / 2;
     }
     .imagentop {
         top: 65%; /* sube un poco para que encaje mejor */
-        background-size: clamp(320px, 87vw, 320px) clamp(110px, 13vh, 110px);
+        background-size: clamp(320px, 87vw, 320px) clamp(130px, 13vh, 130px);
     }
     .sello-btn {
         top: 73%;
@@ -415,9 +415,4 @@ body {
         background-size: clamp(520px, 60vw, 520px) clamp(200px, 25vh, 200px);
     }
 }
-
-
-
-
-
 
