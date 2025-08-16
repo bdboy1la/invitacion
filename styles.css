@@ -405,7 +405,8 @@ body {
     }
     .flip-card {
         width: 100%;
-        max-width: 350px;
+        height: 90%;
+        max-width: 375px;
         aspect-ratio: 3 / 2;
     }
     .imagentop {
@@ -424,4 +425,5 @@ body {
         background-size: clamp(520px, 60vw, 520px) clamp(200px, 25vh, 200px);
     }
 }
+
 
