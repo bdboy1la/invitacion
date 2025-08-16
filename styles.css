@@ -118,10 +118,8 @@ body {
 /* Card sobre */
 .card-sobre {
     width: 100%;
-    max-width: 600px;
-    height: 100%;
-    position: relative;
-    perspective: 1000px;
+    max-width: 100%;
+    height: auto;
 }
 .contenedor-imagen {
   position: absolute;
@@ -404,9 +402,30 @@ body {
 @media (max-width: 768px) {
     .container {
         margin-top: 15%;
+        
     }
     .flip-card {
-        max-height: 285px;
+        height: 38vh;
+            max-height: 300px;
+    }
+    .imagentop {
+        top: 65%; /* sube un poco para que encaje mejor */
+        background-size: clamp(320px, 87vw, 320px) clamp(130px, 13vh, 130px);
+    }
+    .sello-btn {
+    top: 72%;
+    width: clamp(50px, 15vw, 50px);
+    height: clamp(50px, 15vw, 50px);
+    }
+}
+@media (max-width: 400px) {
+    .container {
+        margin-top: 15%;
+        
+    }
+    .flip-card {
+        height: 38vh;
+            max-height: 300px;
     }
     .imagentop {
         top: 65%; /* sube un poco para que encaje mejor */
@@ -424,16 +443,4 @@ body {
         background-size: clamp(520px, 60vw, 520px) clamp(200px, 25vh, 200px);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
