@@ -394,6 +394,7 @@ body {
     }
     .flip-card {
         width: 100%;
+        height: auto;
         width: clamp(280px, 90vw, 390px);
         height: clamp(180px, 38vh, 290px);
         aspect-ratio: 3 / 2;
@@ -414,6 +415,7 @@ body {
         background-size: clamp(520px, 60vw, 520px) clamp(200px, 25vh, 200px);
     }
 }
+
 
 
 
